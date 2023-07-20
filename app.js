@@ -30,7 +30,7 @@ const item3 = new Item({
   name:"Buy boots"
 })
 
-const defaultItems =[];
+const defaultItems =[item1];
 
 const listSchema = {
   name : String,
