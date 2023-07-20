@@ -21,7 +21,7 @@ const itemsSchema ={
 const Item= mongoose.model("Item",itemsSchema);
 
 const item1 = new Item({
-  name:"Proper Sleep"
+  name:"Sleep"
 });
 const item2 = new Item({
   name:"Buy pens"
